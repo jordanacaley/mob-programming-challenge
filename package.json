@@ -1,0 +1,27 @@
+{
+  "name": "mob-programming-challenge",
+  "version": "1.0.0",
+  "description": "## Hey Hackers, let's GIT together !",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app -e .hbs,.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanacaley/mob-programming-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanacaley/mob-programming-challenge/issues"
+  },
+  "homepage": "https://github.com/jordanacaley/mob-programming-challenge#readme",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.12.7"
+  }
+}
